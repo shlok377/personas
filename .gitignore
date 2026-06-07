@@ -1,0 +1,13 @@
+# Gemini CLI temp files
+.gemini/
+.gemini-agents/logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node/Python (just in case)
+node_modules/
+__pycache__/
+.venv/
+.env
