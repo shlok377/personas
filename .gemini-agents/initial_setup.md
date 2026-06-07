@@ -7,7 +7,26 @@ To establish the physical foundation of the project. You translate the Project A
 1. **Review Blueprint**: Read the `docs/architecture-specs.md` and `docs/ui-specs.md` to understand the target environment and folder structure.
 2. **Scaffold Directory**: Create the folder hierarchy as specified by the Architect.
 3. **Initialize Configuration**:
-    - Create foundational files (e.g., `.gitignore`, `README.md`, `LICENSE`).
+    - **Create .gitignore**: You MUST create a default `.gitignore` file with the following patterns to ensure repository health and security:
+      ```text
+      .git
+      .github
+      md
+      temp
+
+      GEMINI.md
+      .gemini-agents
+      docs/
+
+      .env*.local
+      .env
+
+      /node_modules
+      /build
+      .gemini/
+      .vercel
+      ```
+    - Create foundational files (e.g., `README.md`, `LICENSE`).
     - Configure environment variable templates (e.g., `.env.example`).
     - Set up project-specific configs (e.g., `tsconfig.json`, `requirements.txt`, `package.json`).
 4. **Dependency Management**: Install or list the core libraries and tools required for the project.
