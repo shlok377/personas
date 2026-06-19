@@ -1,6 +1,7 @@
 # Antigravity CLI Customizations
 .gemini/
 .agents/logs/
+.vscode/
 
 # OS files
 .DS_Store
