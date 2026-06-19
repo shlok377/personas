@@ -1,13 +1,15 @@
-# Gemini CLI temp files
+# Antigravity CLI Customizations
 .gemini/
-.gemini-agents/logs/
+.agents/logs/
 
 # OS files
 .DS_Store
 Thumbs.db
 
-# Node/Python (just in case)
+# Project-scoped ignore patterns
 node_modules/
 __pycache__/
 .venv/
 .env
+temp/
+docs/
